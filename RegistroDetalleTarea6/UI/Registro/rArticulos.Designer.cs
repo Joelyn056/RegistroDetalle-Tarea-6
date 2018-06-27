@@ -33,9 +33,9 @@
             this.Buscarbutton = new System.Windows.Forms.Button();
             this.IdnumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
-            this.Eliminarbutton = new System.Windows.Forms.Button();
-            this.Nuevobutton = new System.Windows.Forms.Button();
-            this.Guardarbutton = new System.Windows.Forms.Button();
+            this.EliminarButton = new System.Windows.Forms.Button();
+            this.NuevoButton = new System.Windows.Forms.Button();
+            this.GuardarButton = new System.Windows.Forms.Button();
             this.CantCottextBox = new System.Windows.Forms.TextBox();
             this.VencimientodateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.DescripciontextBox = new System.Windows.Forms.TextBox();
@@ -88,38 +88,41 @@
             this.label1.TabIndex = 69;
             this.label1.Text = "ID";
             // 
-            // Eliminarbutton
+            // EliminarButton
             // 
-            this.Eliminarbutton.Image = global::RegistroDetalleTarea6.Properties.Resources.Delete;
-            this.Eliminarbutton.Location = new System.Drawing.Point(276, 291);
-            this.Eliminarbutton.Name = "Eliminarbutton";
-            this.Eliminarbutton.Size = new System.Drawing.Size(75, 60);
-            this.Eliminarbutton.TabIndex = 68;
-            this.Eliminarbutton.Text = "Eliminar";
-            this.Eliminarbutton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.Eliminarbutton.UseVisualStyleBackColor = true;
+            this.EliminarButton.Image = global::RegistroDetalleTarea6.Properties.Resources.Delete;
+            this.EliminarButton.Location = new System.Drawing.Point(276, 291);
+            this.EliminarButton.Name = "EliminarButton";
+            this.EliminarButton.Size = new System.Drawing.Size(75, 60);
+            this.EliminarButton.TabIndex = 68;
+            this.EliminarButton.Text = "Eliminar";
+            this.EliminarButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.EliminarButton.UseVisualStyleBackColor = true;
+            
             // 
-            // Nuevobutton
+            // NuevoButton
             // 
-            this.Nuevobutton.Image = global::RegistroDetalleTarea6.Properties.Resources.new2;
-            this.Nuevobutton.Location = new System.Drawing.Point(157, 291);
-            this.Nuevobutton.Name = "Nuevobutton";
-            this.Nuevobutton.Size = new System.Drawing.Size(75, 60);
-            this.Nuevobutton.TabIndex = 67;
-            this.Nuevobutton.Text = "Nuevo";
-            this.Nuevobutton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.Nuevobutton.UseVisualStyleBackColor = true;
+            this.NuevoButton.Image = global::RegistroDetalleTarea6.Properties.Resources.new2;
+            this.NuevoButton.Location = new System.Drawing.Point(56, 291);
+            this.NuevoButton.Name = "NuevoButton";
+            this.NuevoButton.Size = new System.Drawing.Size(75, 60);
+            this.NuevoButton.TabIndex = 67;
+            this.NuevoButton.Text = "Nuevo";
+            this.NuevoButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.NuevoButton.UseVisualStyleBackColor = true;
+           
             // 
-            // Guardarbutton
+            // GuardarButton
             // 
-            this.Guardarbutton.Image = global::RegistroDetalleTarea6.Properties.Resources.Save;
-            this.Guardarbutton.Location = new System.Drawing.Point(46, 291);
-            this.Guardarbutton.Name = "Guardarbutton";
-            this.Guardarbutton.Size = new System.Drawing.Size(75, 60);
-            this.Guardarbutton.TabIndex = 66;
-            this.Guardarbutton.Text = "Guardar";
-            this.Guardarbutton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.Guardarbutton.UseVisualStyleBackColor = true;
+            this.GuardarButton.Image = global::RegistroDetalleTarea6.Properties.Resources.Save;
+            this.GuardarButton.Location = new System.Drawing.Point(169, 291);
+            this.GuardarButton.Name = "GuardarButton";
+            this.GuardarButton.Size = new System.Drawing.Size(75, 60);
+            this.GuardarButton.TabIndex = 66;
+            this.GuardarButton.Text = "Guardar";
+            this.GuardarButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.GuardarButton.UseVisualStyleBackColor = true;
+            
             // 
             // CantCottextBox
             // 
@@ -204,9 +207,9 @@
             this.Controls.Add(this.Buscarbutton);
             this.Controls.Add(this.IdnumericUpDown);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.Eliminarbutton);
-            this.Controls.Add(this.Nuevobutton);
-            this.Controls.Add(this.Guardarbutton);
+            this.Controls.Add(this.EliminarButton);
+            this.Controls.Add(this.NuevoButton);
+            this.Controls.Add(this.GuardarButton);
             this.Controls.Add(this.CantCottextBox);
             this.Controls.Add(this.VencimientodateTimePicker);
             this.Controls.Add(this.DescripciontextBox);
@@ -231,9 +234,9 @@
         private System.Windows.Forms.Button Buscarbutton;
         private System.Windows.Forms.NumericUpDown IdnumericUpDown;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button Eliminarbutton;
-        private System.Windows.Forms.Button Nuevobutton;
-        private System.Windows.Forms.Button Guardarbutton;
+        private System.Windows.Forms.Button EliminarButton;
+        private System.Windows.Forms.Button NuevoButton;
+        private System.Windows.Forms.Button GuardarButton;
         private System.Windows.Forms.TextBox CantCottextBox;
         private System.Windows.Forms.DateTimePicker VencimientodateTimePicker;
         private System.Windows.Forms.TextBox DescripciontextBox;

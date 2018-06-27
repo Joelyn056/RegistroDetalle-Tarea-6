@@ -43,7 +43,7 @@ namespace RegistroDetalleTarea6.UI.Registro
                 MessageBox.Show("No se encontro", "Fallo", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
-        private void Guardarbutton_Click(object sender, EventArgs e)
+        private void GuardarButton_Click(object sender, EventArgs e)
         {
             bool paso = false;
             if (Validar(2))
@@ -69,7 +69,7 @@ namespace RegistroDetalleTarea6.UI.Registro
                 MessageBox.Show("No se pudo guardar", "Fallo", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
-        private void Nuevobutton_Click(object sender, EventArgs e)
+        private void NuevoButton_Click(object sender, EventArgs e)
         {
             IdnumericUpDown.Value = 0;
             DescripciontextBox.Clear();
@@ -77,7 +77,7 @@ namespace RegistroDetalleTarea6.UI.Registro
             CantCottextBox.Clear();
         }
 
-        private void Eliminarbutton_Click(object sender, EventArgs e)
+        private void EliminarButton_Click(object sender, EventArgs e)
         {
             GeneralErrorProvider.Clear();
 
@@ -137,6 +137,5 @@ namespace RegistroDetalleTarea6.UI.Registro
             return paso;
 
         }
-
     }
 }
