@@ -102,7 +102,7 @@
             // Nuevobutton
             // 
             this.Nuevobutton.Image = global::RegistroDetalleTarea6.Properties.Resources.new2;
-            this.Nuevobutton.Location = new System.Drawing.Point(165, 291);
+            this.Nuevobutton.Location = new System.Drawing.Point(157, 291);
             this.Nuevobutton.Name = "Nuevobutton";
             this.Nuevobutton.Size = new System.Drawing.Size(75, 60);
             this.Nuevobutton.TabIndex = 67;

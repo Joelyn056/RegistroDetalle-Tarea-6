@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.Label label6;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(rCotizaciones));
             System.Windows.Forms.Label label5;
             System.Windows.Forms.Label label4;
             System.Windows.Forms.Label label2;
@@ -39,6 +38,7 @@
             System.Windows.Forms.Label fechaLabel;
             System.Windows.Forms.Label visitaIdLabel;
             System.Windows.Forms.Label label7;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(rCotizaciones));
             this.Eliminarbutton = new System.Windows.Forms.Button();
             this.Guardarbutton = new System.Windows.Forms.Button();
             this.NuevoButton = new System.Windows.Forms.Button();
@@ -69,6 +69,112 @@
             ((System.ComponentModel.ISupportInitialize)(this.TotalnumericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MyerrorProvider)).BeginInit();
             this.SuspendLayout();
+            // 
+            // label6
+            // 
+            label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            label6.AutoSize = true;
+            label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label6.Location = new System.Drawing.Point(259, 373);
+            label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label6.Name = "label6";
+            label6.Size = new System.Drawing.Size(113, 16);
+            label6.TabIndex = 89;
+            label6.Text = "Observaciones";
+            // 
+            // label5
+            // 
+            label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            label5.AutoSize = true;
+            label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label5.Location = new System.Drawing.Point(405, 96);
+            label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label5.Name = "label5";
+            label5.Size = new System.Drawing.Size(64, 16);
+            label5.TabIndex = 104;
+            label5.Text = "Importe:";
+            // 
+            // label4
+            // 
+            label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            label4.AutoSize = true;
+            label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label4.Location = new System.Drawing.Point(304, 96);
+            label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label4.Name = "label4";
+            label4.Size = new System.Drawing.Size(57, 16);
+            label4.TabIndex = 102;
+            label4.Text = "Precio:";
+            // 
+            // label2
+            // 
+            label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            label2.AutoSize = true;
+            label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label2.Location = new System.Drawing.Point(185, 99);
+            label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(74, 16);
+            label2.TabIndex = 101;
+            label2.Text = "Cantidad:";
+            // 
+            // label1
+            // 
+            label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            label1.AutoSize = true;
+            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label1.Location = new System.Drawing.Point(34, 94);
+            label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(64, 16);
+            label1.TabIndex = 98;
+            label1.Text = "Articulo:";
+            // 
+            // label3
+            // 
+            label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            label3.AutoSize = true;
+            label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label3.Location = new System.Drawing.Point(32, 67);
+            label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(62, 16);
+            label3.TabIndex = 96;
+            label3.Text = "Persona:";
+            // 
+            // fechaLabel
+            // 
+            fechaLabel.AutoSize = true;
+            fechaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            fechaLabel.Location = new System.Drawing.Point(382, 34);
+            fechaLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            fechaLabel.Name = "fechaLabel";
+            fechaLabel.Size = new System.Drawing.Size(49, 16);
+            fechaLabel.TabIndex = 93;
+            fechaLabel.Text = "Fecha:";
+            // 
+            // visitaIdLabel
+            // 
+            visitaIdLabel.AutoSize = true;
+            visitaIdLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            visitaIdLabel.Location = new System.Drawing.Point(25, 33);
+            visitaIdLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            visitaIdLabel.Name = "visitaIdLabel";
+            visitaIdLabel.Size = new System.Drawing.Size(84, 16);
+            visitaIdLabel.TabIndex = 92;
+            visitaIdLabel.Text = "CotizacionId:";
+            // 
+            // label7
+            // 
+            label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            label7.AutoSize = true;
+            label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label7.Location = new System.Drawing.Point(492, 356);
+            label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label7.Name = "label7";
+            label7.Size = new System.Drawing.Size(48, 16);
+            label7.TabIndex = 107;
+            label7.Text = "Total:";
             // 
             // Eliminarbutton
             // 
@@ -114,24 +220,12 @@
             this.ObservacionestextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ObservacionestextBox.Location = new System.Drawing.Point(72, 393);
-            this.ObservacionestextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ObservacionestextBox.Margin = new System.Windows.Forms.Padding(2);
             this.ObservacionestextBox.MaxLength = 100;
             this.ObservacionestextBox.Multiline = true;
             this.ObservacionestextBox.Name = "ObservacionestextBox";
             this.ObservacionestextBox.Size = new System.Drawing.Size(476, 45);
             this.ObservacionestextBox.TabIndex = 75;
-            // 
-            // label6
-            // 
-            label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            label6.AutoSize = true;
-            label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            label6.Location = new System.Drawing.Point(259, 373);
-            label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            label6.Name = "label6";
-            label6.Size = new System.Drawing.Size(113, 16);
-            label6.TabIndex = 89;
-            label6.Text = "Observaciones";
             // 
             // DetalledataGridView
             // 
@@ -143,7 +237,7 @@
             this.DetalledataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.DetalledataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DetalledataGridView.Location = new System.Drawing.Point(24, 152);
-            this.DetalledataGridView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DetalledataGridView.Margin = new System.Windows.Forms.Padding(2);
             this.DetalledataGridView.Name = "DetalledataGridView";
             this.DetalledataGridView.ReadOnly = true;
             this.DetalledataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -168,48 +262,12 @@
             this.ImportetextBox.Size = new System.Drawing.Size(100, 20);
             this.ImportetextBox.TabIndex = 105;
             // 
-            // label5
-            // 
-            label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            label5.AutoSize = true;
-            label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            label5.Location = new System.Drawing.Point(405, 96);
-            label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(64, 16);
-            label5.TabIndex = 104;
-            label5.Text = "Importe:";
-            // 
             // PreciotextBox
             // 
             this.PreciotextBox.Location = new System.Drawing.Point(279, 118);
             this.PreciotextBox.Name = "PreciotextBox";
             this.PreciotextBox.Size = new System.Drawing.Size(100, 20);
             this.PreciotextBox.TabIndex = 103;
-            // 
-            // label4
-            // 
-            label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            label4.AutoSize = true;
-            label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            label4.Location = new System.Drawing.Point(304, 96);
-            label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(57, 16);
-            label4.TabIndex = 102;
-            label4.Text = "Precio:";
-            // 
-            // label2
-            // 
-            label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            label2.AutoSize = true;
-            label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            label2.Location = new System.Drawing.Point(185, 99);
-            label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(74, 16);
-            label2.TabIndex = 101;
-            label2.Text = "Cantidad:";
             // 
             // ArticulocomboBox
             // 
@@ -226,18 +284,6 @@
             this.CantidadtextBox.Size = new System.Drawing.Size(99, 20);
             this.CantidadtextBox.TabIndex = 99;
             // 
-            // label1
-            // 
-            label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            label1.AutoSize = true;
-            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            label1.Location = new System.Drawing.Point(34, 94);
-            label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(64, 16);
-            label1.TabIndex = 98;
-            label1.Text = "Articulo:";
-            // 
             // PersonacomboBox
             // 
             this.PersonacomboBox.FormattingEnabled = true;
@@ -246,18 +292,6 @@
             this.PersonacomboBox.Size = new System.Drawing.Size(452, 21);
             this.PersonacomboBox.TabIndex = 97;
             // 
-            // label3
-            // 
-            label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            label3.AutoSize = true;
-            label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            label3.Location = new System.Drawing.Point(32, 67);
-            label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(62, 16);
-            label3.TabIndex = 96;
-            label3.Text = "Persona:";
-            // 
             // IdnumericUpDown
             // 
             this.IdnumericUpDown.Location = new System.Drawing.Point(106, 31);
@@ -265,43 +299,21 @@
             this.IdnumericUpDown.Size = new System.Drawing.Size(102, 20);
             this.IdnumericUpDown.TabIndex = 95;
             // 
-            // fechaLabel
-            // 
-            fechaLabel.AutoSize = true;
-            fechaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            fechaLabel.Location = new System.Drawing.Point(381, 34);
-            fechaLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            fechaLabel.Name = "fechaLabel";
-            fechaLabel.Size = new System.Drawing.Size(49, 16);
-            fechaLabel.TabIndex = 93;
-            fechaLabel.Text = "Fecha:";
-            // 
             // fechaDateTimePicker
             // 
             this.fechaDateTimePicker.CustomFormat = "dd/MM/yyyy";
             this.fechaDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.fechaDateTimePicker.Location = new System.Drawing.Point(433, 33);
-            this.fechaDateTimePicker.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.fechaDateTimePicker.Location = new System.Drawing.Point(434, 33);
+            this.fechaDateTimePicker.Margin = new System.Windows.Forms.Padding(2);
             this.fechaDateTimePicker.Name = "fechaDateTimePicker";
             this.fechaDateTimePicker.Size = new System.Drawing.Size(143, 20);
             this.fechaDateTimePicker.TabIndex = 94;
-            // 
-            // visitaIdLabel
-            // 
-            visitaIdLabel.AutoSize = true;
-            visitaIdLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            visitaIdLabel.Location = new System.Drawing.Point(25, 33);
-            visitaIdLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            visitaIdLabel.Name = "visitaIdLabel";
-            visitaIdLabel.Size = new System.Drawing.Size(84, 16);
-            visitaIdLabel.TabIndex = 92;
-            visitaIdLabel.Text = "CotizacionId:";
             // 
             // Buscarbutton
             // 
             this.Buscarbutton.Image = global::RegistroDetalleTarea6.Properties.Resources.find;
             this.Buscarbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Buscarbutton.Location = new System.Drawing.Point(214, 12);
+            this.Buscarbutton.Location = new System.Drawing.Point(226, 20);
             this.Buscarbutton.Name = "Buscarbutton";
             this.Buscarbutton.Size = new System.Drawing.Size(79, 39);
             this.Buscarbutton.TabIndex = 91;
@@ -323,18 +335,6 @@
             this.TotalnumericUpDown.Size = new System.Drawing.Size(108, 20);
             this.TotalnumericUpDown.TabIndex = 108;
             this.TotalnumericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label7
-            // 
-            label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            label7.AutoSize = true;
-            label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            label7.Location = new System.Drawing.Point(492, 356);
-            label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            label7.Name = "label7";
-            label7.Size = new System.Drawing.Size(48, 16);
-            label7.TabIndex = 107;
-            label7.Text = "Total:";
             // 
             // MyerrorProvider
             // 
